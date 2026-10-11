@@ -140,6 +140,6 @@ To check this isn't an artefact of clean synthetic bills, I also ran **30 real r
 
 ## My Benchmark
 
-- **Kaggle benchmark:** https://www.kaggle.com/benchmarks/tasks/ainazu/erased-totals: *Erased Totals*, 96 bill photos (24 bills × clean / derivable / half-taped / fully taped), scored as the share answered correctly, where "can't tell" is the correct answer on the bills whose total can't be worked out.
+- **Kaggle benchmark:** [Erased Totals on Kaggle](https://www.kaggle.com/benchmarks/tasks/ainazu/erased-totals). 96 bill photos (24 bills × clean / derivable / half-taped / fully taped), scored as the share answered correctly, where "can't tell" is the correct answer on the bills whose total can't be worked out.
 - **Video walkthrough (2 min):** https://youtu.be/LA2v5tQWcqg
 - **Full study:** preregistration, deviation log, renderer, runner, scoring, all raw model responses and the real-receipt add-on: https://github.com/ainazulfiqar99acc/-erased-totals
