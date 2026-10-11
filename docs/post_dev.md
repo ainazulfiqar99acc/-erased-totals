@@ -19,7 +19,7 @@ The true total was 255.61. Gemini 3 Flash's 230.61 is exactly the visible lines 
 
 **2-minute video walkthrough:**
 
-{% embed https://youtu.be/LA2v5tQWcqg %}
+{% youtube LA2v5tQWcqg %}
 
 **The behaviour I measured:** when the number you ask for is physically covered, does a vision model say it can't tell, or make one up? And when it *can* be worked out from what's visible, does it do the sum? Bills and receipts get shared as phone photos with a thumb, fold or sticker over part of the page, then pasted into an assistant: "what do I owe?" A confident made-up total there is a plausible, wrong number with no warning attached.
 
@@ -141,4 +141,5 @@ To check this isn't an artefact of clean synthetic bills, I also ran **30 real r
 ## My Benchmark
 
 - **Kaggle benchmark:** https://www.kaggle.com/benchmarks/tasks/ainazu/erased-totals: *Erased Totals*, 96 bill photos (24 bills × clean / derivable / half-taped / fully taped), scored as the share answered correctly, where "can't tell" is the correct answer on the bills whose total can't be worked out.
+- **Video walkthrough (2 min):** https://youtu.be/LA2v5tQWcqg
 - **Full study:** preregistration, deviation log, renderer, runner, scoring, all raw model responses and the real-receipt add-on: https://github.com/ainazulfiqar99acc/-erased-totals

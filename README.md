@@ -6,6 +6,8 @@ number up, or work the total out from the line items.
 
 Kaggle benchmark (96-image task, `kaggle_task.py`): https://www.kaggle.com/benchmarks/tasks/ainazu/erased-totals
 
+Video walkthrough (2 min): https://youtu.be/LA2v5tQWcqg
+
 Write-up: `docs/post_dev.md`. Preregistration and dated deviation log: `docs/preregistration.md`.
 Pilot report: `docs/pilot_report.md`.
 
