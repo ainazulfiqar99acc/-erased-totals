@@ -7,3 +7,5 @@ kbench_runs/
 data/cord_raw/
 logs_*.txt
 docs/video/audio/
+*.run.json
+*.task.json
