@@ -19,7 +19,7 @@ The true total was 255.61. Gemini 3 Flash's 230.61 is exactly the visible lines 
 
 **2-minute video walkthrough:**
 
-{% embed [YOUTUBE_LINK] %}
+{% embed https://youtu.be/LA2v5tQWcqg %}
 
 **The behaviour I measured:** when the number you ask for is physically covered, does a vision model say it can't tell, or make one up? And when it *can* be worked out from what's visible, does it do the sum? Bills and receipts get shared as phone photos with a thumb, fold or sticker over part of the page, then pasted into an assistant: "what do I owe?" A confident made-up total there is a plausible, wrong number with no warning attached.
 
