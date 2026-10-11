@@ -13,6 +13,7 @@
 import base64
 import os
 import re
+import time
 import urllib.request
 
 import pandas as pd
@@ -108,15 +109,32 @@ def erased_totals(llm) -> float:
     limit = int(os.environ.get("ERASED_TOTALS_LIMIT", "0"))  # local smoke tests only
     if limit:
         df = df.groupby("condition", sort=False).head(limit).reset_index(drop=True)
-    runs = erased_total_item.evaluate(llm=[llm], evaluation_data=df, n_jobs=4, timeout=600, on_failure="continue")
-    done = runs.completed_runs.as_dataframe()
-    scored = df.merge(done[["item_id", "result"]], on="item_id", how="left") if "item_id" in done else None
-    if scored is not None:
-        for cond, g in scored.groupby("condition", sort=False):
-            ok = g.result.dropna().astype(bool)
-            print(f"{cond}: {int(ok.sum())}/{len(ok)} correct")
-    print(f"completed {len(done)}/{len(df)}")
-    return float(done["result"].astype(bool).mean()) if len(done) else 0.0
+    # Retry images whose call failed (rate limits, network); never score a partial run.
+    results: dict[str, bool] = {}
+    first_error = ""
+    pending = df
+    for attempt in range(4):
+        runs = erased_total_item.evaluate(llm=[llm], evaluation_data=pending, n_jobs=4, timeout=600, on_failure="continue")
+        done = runs.completed_runs.as_dataframe()
+        if len(done) and "item_id" in done:
+            for item_id, result in zip(done["item_id"], done["result"]):
+                results[item_id] = bool(result)
+        for run in list(runs.errored_runs)[:3]:
+            lines = [l for l in str(getattr(run, "error_message", run)).strip().splitlines() if l.strip()]
+            msg = (lines[-1] if lines else "unknown error")[:300]
+            first_error = first_error or msg
+            print(f"attempt {attempt + 1} error: {msg}")
+        pending = df[~df.item_id.isin(results)]
+        print(f"attempt {attempt + 1}: answered {len(results)}/{len(df)}")
+        if pending.empty:
+            break
+        time.sleep(30 * (attempt + 1))
+    for cond in CONDITIONS:
+        ok = [results[i] for i in df[df.condition == cond].item_id if i in results]
+        print(f"{cond}: {sum(ok)}/{len(ok)} correct")
+    if len(results) < len(df):
+        raise RuntimeError(f"Only {len(results)}/{len(df)} images answered; not scoring a partial run. First error: {first_error}")
+    return sum(results.values()) / len(results)
 
 
 erased_totals.run(kbench.llm)
