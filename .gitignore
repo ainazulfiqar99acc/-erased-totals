@@ -6,3 +6,4 @@ kbench_runs/
 *.tmp
 data/cord_raw/
 logs_*.txt
+docs/video/audio/

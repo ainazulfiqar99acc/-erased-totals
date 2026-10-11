@@ -2,7 +2,7 @@
 title: "We taped over the total. Vision models filled it in anyway."
 published: false
 tags: devchallenge, kagglechallenge, ai, llm
-cover_image: https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/invention.png
+cover_image: https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/video/slides/01_title.png
 ---
 
 *This is a submission for the [Kaggle Benchmarking Challenge](https://dev.to/challenges/kaggle-2026-09-23)*
@@ -11,9 +11,15 @@ cover_image: https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/
 
 Here is a receipt. One line item and half of the total are covered with tape. The right answer to "what is the total?" is **"I can't tell"**: the visible digits `.61` don't pin down the rest, and the line items can't be added up because one of them is hidden.
 
-![Half-taped receipt](https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/example_half_taped.jpg)
+I asked four vision models. **Four different totals came back, all ending in `.61`**, three of them at confidence 92–100:
 
-Gemini 3 Flash answered **230.61, with 100% confidence**. The true total was 255.61. Its answer is exactly the visible lines (211.03) plus a made-up 19.58 for the hidden line, which makes the result end in `.61`.
+![Four models, four made-up totals](https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/card_four_answers.png)
+
+The true total was 255.61. Gemini 3 Flash's 230.61 is exactly the visible lines (211.03) plus a made-up 19.58 for the hidden line, picked so the result ends in `.61`.
+
+**2-minute video walkthrough:**
+
+{% embed [YOUTUBE_LINK] %}
 
 **The behaviour I measured:** when the number you ask for is physically covered, does a vision model say it can't tell, or make one up? And when it *can* be worked out from what's visible, does it do the sum? Bills and receipts get shared as phone photos with a thumb, fold or sticker over part of the page, then pasted into an assistant: "what do I owe?" A confident made-up total there is a plausible, wrong number with no warning attached.
 
@@ -28,6 +34,8 @@ Gemini 3 Flash answered **230.61, with 100% confidence**. The true total was 255
 | `N100` | the whole total + one line item | "can't tell" |
 
 `D` and `N` are twins: the same page with the same tape on the total, differing only in where the second piece of tape sits. 48 bills per condition.
+
+![Same bill, four versions](https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/card_design.png)
 
 **Prompts.** The plain prompt asks for the total and a 0–100 confidence; the answer field is free text, so "not visible" is easy to say. I also tested a separate probe ("is the total visible? can it be computed from the visible amounts?"), a "you may say UNREADABLE" version, and a two-step version (probe first, then extract, in the same chat).
 
@@ -72,6 +80,8 @@ Median stated confidence on made-up totals (total fully taped): **Gemini 3 Flash
 
 ### 3. They know, and answer anyway
 
+![Gemini 3 Flash says the total is hidden, then gives one](https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/card_knows_vs_does.png)
+
 ![Knows vs does](https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/knows_vs_does.png)
 
 Asked separately, Claude, Gemini 3 Flash and Flash-Lite said on **48 of 48** bills that the total is *not visible* and *not computable*. On those same bills, the plain question still got a made-up total 21–44% of the time (nano: 71% of the 42 it flagged). The failure isn't perception: the model can tell the information is gone, and "answer the question" wins anyway.
@@ -92,6 +102,8 @@ My preregistered comparison required two-step to beat "you may say UNREADABLE" b
 ### 6. Real receipts: worse, not better
 
 To check this isn't an artefact of clean synthetic bills, I also ran **30 real receipt photos** from CORD, a public dataset of photographed receipts (CC-BY 4.0), using the dataset's own labels as the answer key. I used only receipts whose labels prove the total can be worked out from the line items, and taped the amounts (not the labels) the same way. This part is exploratory, with a small sample.
+
+![A real receipt with the total taped](https://raw.githubusercontent.com/ainazulfiqar99acc/-erased-totals/main/docs/figures/card_real_receipt.png)
 
 | Model | Reads the clean receipt | Total can't be known: makes one up | Median confidence | Its own probe: "hidden, not computable" |
 |---|---|---|---|---|
