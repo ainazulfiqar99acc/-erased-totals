@@ -1,0 +1,859 @@
+[
+ {
+  "split": "pilot",
+  "bill_id": "b00",
+  "seed": 1000,
+  "doc_type": "retail_receipt",
+  "currency": "CHF",
+  "issuer": "Kingsley Grocers",
+  "address": "120 High Street",
+  "phone": "Tel 555-0198",
+  "title": "SALES RECEIPT",
+  "number_label": "Receipt No",
+  "doc_no": "836960",
+  "date": "2026-01-11  11:01",
+  "customer": "W. Kaur",
+  "extra_fields": [],
+  "lines": [
+   {
+    "desc": "Olive oil 1L",
+    "qty": 2,
+    "cents": 3663
+   },
+   {
+    "desc": "Toothpaste",
+    "qty": 1,
+    "cents": 1897
+   },
+   {
+    "desc": "Shampoo",
+    "qty": 3,
+    "cents": 2051
+   },
+   {
+    "desc": "Coffee beans 250g",
+    "qty": 1,
+    "cents": 5644
+   },
+   {
+    "desc": "LED light bulb",
+    "qty": 2,
+    "cents": 1743
+   },
+   {
+    "desc": "Milk 1L",
+    "qty": 3,
+    "cents": 5537
+   }
+  ],
+  "total_label": "TOTAL",
+  "total_cents": 20535,
+  "cover_side": "lead",
+  "hidden_line": 4,
+  "font_regular": "cour.ttf",
+  "font_bold": "courbd.ttf",
+  "paper": [
+   248,
+   246,
+   240
+  ],
+  "photo": {
+   "angle": -0.971,
+   "blur": 0.4,
+   "margin": 41,
+   "bg": [
+    92,
+    74,
+    58
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b01",
+  "seed": 1001,
+  "doc_type": "restaurant_bill",
+  "currency": "CHF",
+  "issuer": "Kingsley Diner",
+  "address": "190 Park Avenue",
+  "phone": "Tel 555-0174",
+  "title": "GUEST BILL",
+  "number_label": "Bill No",
+  "doc_no": "819127",
+  "date": "01 Aug 2026  19:57",
+  "customer": "E. Rivera",
+  "extra_fields": [],
+  "lines": [
+   {
+    "desc": "Iced tea",
+    "qty": 4,
+    "cents": 997
+   },
+   {
+    "desc": "Fruit bowl",
+    "qty": 2,
+    "cents": 3340
+   },
+   {
+    "desc": "Service charge",
+    "qty": null,
+    "cents": 966
+   }
+  ],
+  "total_label": "TOTAL",
+  "total_cents": 5303,
+  "cover_side": "lead",
+  "hidden_line": 2,
+  "font_regular": "consola.ttf",
+  "font_bold": "consolab.ttf",
+  "paper": [
+   250,
+   248,
+   242
+  ],
+  "photo": {
+   "angle": 1.209,
+   "blur": 0.4,
+   "margin": 40,
+   "bg": [
+    92,
+    74,
+    58
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b02",
+  "seed": 1002,
+  "doc_type": "utility_bill",
+  "currency": "AUD",
+  "issuer": "Silver Oak Utilities",
+  "address": "121 Church Road",
+  "phone": "Tel 555-0120",
+  "title": "ELECTRICITY BILL",
+  "number_label": "Account No",
+  "doc_no": "1661-7899-13",
+  "date": "2025-02-19",
+  "customer": "T. Kaur",
+  "extra_fields": [
+   [
+    "Billing period",
+    "2025-01-20 to 2025-02-19"
+   ],
+   [
+    "Due date",
+    "2025-03-05"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Previous balance",
+    "qty": null,
+    "cents": 10757
+   },
+   {
+    "desc": "Fixed monthly charge",
+    "qty": null,
+    "cents": 10057
+   },
+   {
+    "desc": "Street lighting levy",
+    "qty": null,
+    "cents": 10676
+   },
+   {
+    "desc": "Sales tax",
+    "qty": null,
+    "cents": 2026
+   },
+   {
+    "desc": "Meter service fee",
+    "qty": null,
+    "cents": 12088
+   },
+   {
+    "desc": "Environmental levy",
+    "qty": null,
+    "cents": 7633
+   },
+   {
+    "desc": "Energy charge",
+    "qty": null,
+    "cents": 8857
+   }
+  ],
+  "total_label": "AMOUNT PAYABLE",
+  "total_cents": 62094,
+  "cover_side": "lead",
+  "hidden_line": 5,
+  "font_regular": "tahoma.ttf",
+  "font_bold": "tahomabd.ttf",
+  "paper": [
+   242,
+   240,
+   234
+  ],
+  "photo": {
+   "angle": 0.892,
+   "blur": 0.4,
+   "margin": 31,
+   "bg": [
+    120,
+    120,
+    118
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b03",
+  "seed": 1003,
+  "doc_type": "service_invoice",
+  "currency": "CHF",
+  "issuer": "Copperfield Partners",
+  "address": "17 Bridge Street",
+  "phone": "Tel 555-0139",
+  "title": "INVOICE",
+  "number_label": "Invoice No",
+  "doc_no": "2025-67311",
+  "date": "30 Oct 2025",
+  "customer": "W. Costa",
+  "extra_fields": [
+   [
+    "Due date",
+    "29 Nov 2025"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Data migration",
+    "qty": 2,
+    "cents": 64422
+   },
+   {
+    "desc": "Training session",
+    "qty": 2,
+    "cents": 8398
+   },
+   {
+    "desc": "Equipment rental",
+    "qty": 3,
+    "cents": 48896
+   },
+   {
+    "desc": "Support hours",
+    "qty": 1,
+    "cents": 67330
+   },
+   {
+    "desc": "Maintenance plan",
+    "qty": 2,
+    "cents": 64155
+   },
+   {
+    "desc": "Travel expenses",
+    "qty": 2,
+    "cents": 16519
+   }
+  ],
+  "total_label": "TOTAL",
+  "total_cents": 269720,
+  "cover_side": "lead",
+  "hidden_line": 1,
+  "font_regular": "georgia.ttf",
+  "font_bold": "georgiab.ttf",
+  "paper": [
+   250,
+   248,
+   242
+  ],
+  "photo": {
+   "angle": -0.324,
+   "blur": 0.4,
+   "margin": 30,
+   "bg": [
+    120,
+    120,
+    118
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b04",
+  "seed": 1004,
+  "doc_type": "lab_invoice",
+  "currency": "CHF",
+  "issuer": "Northgate Medical Laboratory",
+  "address": "41 Market Street",
+  "phone": "Tel 555-0175",
+  "title": "PATIENT INVOICE",
+  "number_label": "Invoice No",
+  "doc_no": "2026-67271",
+  "date": "26 Sep 2026",
+  "customer": "L. Dubois",
+  "extra_fields": [
+   [
+    "Patient ID",
+    "P-172038"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Lipid panel",
+    "qty": null,
+    "cents": 12691
+   },
+   {
+    "desc": "Liver function test",
+    "qty": null,
+    "cents": 22816
+   },
+   {
+    "desc": "Blood glucose (fasting)",
+    "qty": null,
+    "cents": 3491
+   },
+   {
+    "desc": "Vitamin D test",
+    "qty": null,
+    "cents": 24448
+   },
+   {
+    "desc": "Consultation fee",
+    "qty": null,
+    "cents": 24930
+   },
+   {
+    "desc": "ECG",
+    "qty": null,
+    "cents": 6444
+   }
+  ],
+  "total_label": "TOTAL PAYABLE",
+  "total_cents": 94820,
+  "cover_side": "lead",
+  "hidden_line": 0,
+  "font_regular": "calibri.ttf",
+  "font_bold": "calibrib.ttf",
+  "paper": [
+   250,
+   248,
+   242
+  ],
+  "photo": {
+   "angle": -1.146,
+   "blur": 0.4,
+   "margin": 31,
+   "bg": [
+    120,
+    120,
+    118
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b05",
+  "seed": 1005,
+  "doc_type": "fee_statement",
+  "currency": "CAD",
+  "issuer": "Cedar Point School",
+  "address": "61 Market Street",
+  "phone": "Tel 555-0147",
+  "title": "FEE STATEMENT",
+  "number_label": "Statement No",
+  "doc_no": "2025-06778",
+  "date": "2025-08-01",
+  "customer": "D. Ibrahim",
+  "extra_fields": [
+   [
+    "Student ID",
+    "S96619"
+   ],
+   [
+    "Term",
+    "Summer 2025"
+   ],
+   [
+    "Due date",
+    "2025-08-31"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Transport fee",
+    "qty": null,
+    "cents": 146077
+   },
+   {
+    "desc": "Registration fee",
+    "qty": null,
+    "cents": 48890
+   },
+   {
+    "desc": "Sports fee",
+    "qty": null,
+    "cents": 130001
+   },
+   {
+    "desc": "Technology fee",
+    "qty": null,
+    "cents": 34131
+   },
+   {
+    "desc": "Laboratory fee",
+    "qty": null,
+    "cents": 86904
+   },
+   {
+    "desc": "Activity fee",
+    "qty": null,
+    "cents": 98362
+   }
+  ],
+  "total_label": "TOTAL FEES DUE",
+  "total_cents": 544365,
+  "cover_side": "lead",
+  "hidden_line": 4,
+  "font_regular": "verdana.ttf",
+  "font_bold": "verdanab.ttf",
+  "paper": [
+   250,
+   248,
+   242
+  ],
+  "photo": {
+   "angle": 1.175,
+   "blur": 0.4,
+   "margin": 35,
+   "bg": [
+    60,
+    64,
+    70
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b06",
+  "seed": 1006,
+  "doc_type": "retail_receipt",
+  "currency": "GBP",
+  "issuer": "Bluefield General Store",
+  "address": "191 Station Road",
+  "phone": "Tel 555-0115",
+  "title": "SALES RECEIPT",
+  "number_label": "Receipt No",
+  "doc_no": "425549",
+  "date": "2026-08-24  12:50",
+  "customer": "K. Okafor",
+  "extra_fields": [],
+  "lines": [
+   {
+    "desc": "Ballpoint pens (10)",
+    "qty": 2,
+    "cents": 2722
+   },
+   {
+    "desc": "Rice 2kg",
+    "qty": 3,
+    "cents": 85
+   },
+   {
+    "desc": "LED light bulb",
+    "qty": 4,
+    "cents": 1798
+   },
+   {
+    "desc": "Notebook A5",
+    "qty": 2,
+    "cents": 2611
+   },
+   {
+    "desc": "AA batteries (4)",
+    "qty": 3,
+    "cents": 1318
+   }
+  ],
+  "total_label": "TOTAL",
+  "total_cents": 8534,
+  "cover_side": "trail",
+  "hidden_line": 4,
+  "font_regular": "consola.ttf",
+  "font_bold": "consolab.ttf",
+  "paper": [
+   246,
+   244,
+   238
+  ],
+  "photo": {
+   "angle": -0.343,
+   "blur": 0.4,
+   "margin": 30,
+   "bg": [
+    92,
+    74,
+    58
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b07",
+  "seed": 1007,
+  "doc_type": "restaurant_bill",
+  "currency": "CAD",
+  "issuer": "Greenway Kitchen",
+  "address": "238 Market Street",
+  "phone": "Tel 555-0125",
+  "title": "GUEST BILL",
+  "number_label": "Bill No",
+  "doc_no": "468034",
+  "date": "2026-07-26  18:58",
+  "customer": "B. Mensah",
+  "extra_fields": [],
+  "lines": [
+   {
+    "desc": "Iced tea",
+    "qty": 1,
+    "cents": 2800
+   },
+   {
+    "desc": "Garlic bread",
+    "qty": 3,
+    "cents": 1702
+   },
+   {
+    "desc": "Fish tacos",
+    "qty": 1,
+    "cents": 715
+   }
+  ],
+  "total_label": "AMOUNT DUE",
+  "total_cents": 5217,
+  "cover_side": "trail",
+  "hidden_line": 1,
+  "font_regular": "cour.ttf",
+  "font_bold": "courbd.ttf",
+  "paper": [
+   250,
+   248,
+   242
+  ],
+  "photo": {
+   "angle": -0.631,
+   "blur": 0.4,
+   "margin": 40,
+   "bg": [
+    92,
+    74,
+    58
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b08",
+  "seed": 1008,
+  "doc_type": "utility_bill",
+  "currency": "EUR",
+  "issuer": "Cedar Point Energy",
+  "address": "98 Bridge Street",
+  "phone": "Tel 555-0123",
+  "title": "ELECTRICITY BILL",
+  "number_label": "Account No",
+  "doc_no": "4640-8949-28",
+  "date": "12 Jan 2025",
+  "customer": "D. Haddad",
+  "extra_fields": [
+   [
+    "Billing period",
+    "13 Dec 2024 to 12 Jan 2025"
+   ],
+   [
+    "Due date",
+    "02 Feb 2025"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Street lighting levy",
+    "qty": null,
+    "cents": 14811
+   },
+   {
+    "desc": "Meter service fee",
+    "qty": null,
+    "cents": 11547
+   },
+   {
+    "desc": "Energy charge",
+    "qty": null,
+    "cents": 10187
+   },
+   {
+    "desc": "Sales tax",
+    "qty": null,
+    "cents": 2345
+   },
+   {
+    "desc": "Environmental levy",
+    "qty": null,
+    "cents": 10196
+   },
+   {
+    "desc": "Previous balance",
+    "qty": null,
+    "cents": 6148
+   },
+   {
+    "desc": "Network charge",
+    "qty": null,
+    "cents": 11464
+   }
+  ],
+  "total_label": "TOTAL AMOUNT DUE",
+  "total_cents": 66698,
+  "cover_side": "trail",
+  "hidden_line": 2,
+  "font_regular": "tahoma.ttf",
+  "font_bold": "tahomabd.ttf",
+  "paper": [
+   250,
+   248,
+   242
+  ],
+  "photo": {
+   "angle": -0.754,
+   "blur": 0.4,
+   "margin": 33,
+   "bg": [
+    120,
+    120,
+    118
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b09",
+  "seed": 1009,
+  "doc_type": "service_invoice",
+  "currency": "AUD",
+  "issuer": "Harbor Lane Systems",
+  "address": "43 Orchard Close",
+  "phone": "Tel 555-0122",
+  "title": "INVOICE",
+  "number_label": "Invoice No",
+  "doc_no": "2025-12541",
+  "date": "2025-09-01",
+  "customer": "L. Kaur",
+  "extra_fields": [
+   [
+    "Due date",
+    "2025-09-22"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Consulting hours",
+    "qty": 2,
+    "cents": 67712
+   },
+   {
+    "desc": "Maintenance plan",
+    "qty": 4,
+    "cents": 119851
+   },
+   {
+    "desc": "Site visit",
+    "qty": 1,
+    "cents": 70925
+   },
+   {
+    "desc": "Training session",
+    "qty": 4,
+    "cents": 111958
+   }
+  ],
+  "total_label": "TOTAL",
+  "total_cents": 370446,
+  "cover_side": "trail",
+  "hidden_line": 1,
+  "font_regular": "arial.ttf",
+  "font_bold": "arialbd.ttf",
+  "paper": [
+   247,
+   245,
+   239
+  ],
+  "photo": {
+   "angle": 1.095,
+   "blur": 0.4,
+   "margin": 35,
+   "bg": [
+    120,
+    120,
+    118
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b10",
+  "seed": 1010,
+  "doc_type": "lab_invoice",
+  "currency": "AUD",
+  "issuer": "Hillcrest Pathology",
+  "address": "21 Station Road",
+  "phone": "Tel 555-0177",
+  "title": "PATIENT INVOICE",
+  "number_label": "Invoice No",
+  "doc_no": "2025-92019",
+  "date": "31 Dec 2025",
+  "customer": "T. Costa",
+  "extra_fields": [
+   [
+    "Patient ID",
+    "P-703509"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Vitamin D test",
+    "qty": null,
+    "cents": 6170
+   },
+   {
+    "desc": "Blood glucose (fasting)",
+    "qty": null,
+    "cents": 15811
+   },
+   {
+    "desc": "Lipid panel",
+    "qty": null,
+    "cents": 8195
+   },
+   {
+    "desc": "Consultation fee",
+    "qty": null,
+    "cents": 5002
+   },
+   {
+    "desc": "ECG",
+    "qty": null,
+    "cents": 18208
+   },
+   {
+    "desc": "Sample collection fee",
+    "qty": null,
+    "cents": 22588
+   },
+   {
+    "desc": "Liver function test",
+    "qty": null,
+    "cents": 18060
+   }
+  ],
+  "total_label": "TOTAL PAYABLE",
+  "total_cents": 94034,
+  "cover_side": "trail",
+  "hidden_line": 5,
+  "font_regular": "calibri.ttf",
+  "font_bold": "calibrib.ttf",
+  "paper": [
+   244,
+   242,
+   236
+  ],
+  "photo": {
+   "angle": 0.621,
+   "blur": 0.4,
+   "margin": 32,
+   "bg": [
+    150,
+    132,
+    108
+   ]
+  }
+ },
+ {
+  "split": "pilot",
+  "bill_id": "b11",
+  "seed": 1011,
+  "doc_type": "fee_statement",
+  "currency": "EUR",
+  "issuer": "Harbor Lane Institute",
+  "address": "212 Quarry Road",
+  "phone": "Tel 555-0154",
+  "title": "FEE STATEMENT",
+  "number_label": "Statement No",
+  "doc_no": "2025-50788",
+  "date": "02 May 2025",
+  "customer": "S. Rivera",
+  "extra_fields": [
+   [
+    "Student ID",
+    "S97039"
+   ],
+   [
+    "Term",
+    "Spring 2025"
+   ],
+   [
+    "Due date",
+    "01 Jun 2025"
+   ]
+  ],
+  "lines": [
+   {
+    "desc": "Sports fee",
+    "qty": null,
+    "cents": 106488
+   },
+   {
+    "desc": "Tuition fee",
+    "qty": null,
+    "cents": 118044
+   },
+   {
+    "desc": "Examination fee",
+    "qty": null,
+    "cents": 134465
+   },
+   {
+    "desc": "Library fee",
+    "qty": null,
+    "cents": 69635
+   },
+   {
+    "desc": "Transport fee",
+    "qty": null,
+    "cents": 48769
+   }
+  ],
+  "total_label": "TOTAL PAYABLE",
+  "total_cents": 477401,
+  "cover_side": "trail",
+  "hidden_line": 1,
+  "font_regular": "tahoma.ttf",
+  "font_bold": "tahomabd.ttf",
+  "paper": [
+   249,
+   247,
+   241
+  ],
+  "photo": {
+   "angle": 0.106,
+   "blur": 0.4,
+   "margin": 40,
+   "bg": [
+    60,
+    64,
+    70
+   ]
+  }
+ }
+]

@@ -1,0 +1,36 @@
+{
+ "renderer_version": "1.0.0",
+ "split": "pilot",
+ "seed_base": 1000,
+ "n_bills": 12,
+ "conditions": [
+  "clean",
+  "D0",
+  "D50",
+  "D100",
+  "N50",
+  "N100"
+ ],
+ "n_images": 72,
+ "rendered_on": "2026-10-11",
+ "python": "3.13.2",
+ "pillow": "12.3.0",
+ "fonts": {
+  "arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+  "arialbd.ttf": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5",
+  "calibri.ttf": "57e93ff143572bcc092c1f56202d43ddc07bb119aa104c6d7af163470fb551f6",
+  "calibrib.ttf": "0a8296747536ead27d5f48f67e911cc3b207742b3f704e66995251d12fd422e5",
+  "consola.ttf": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179",
+  "consolab.ttf": "7e8de70c92a891722bd3fbd623db005caab2bfe267e5dab5be46b95a44e0c7f1",
+  "cour.ttf": "e4a66a0259718d0c8f4b6e14319b4803ced45afbddf3abba8b8c3e2006856206",
+  "courbd.ttf": "11e629cef937cd08f942aa1bd994a71302dbe2819c72c6d4c183a623acbb421a",
+  "georgia.ttf": "38dffcaf1fac89492f7c56c600a14daf36ae42f7c21985cd4134ae113124a58f",
+  "georgiab.ttf": "72a6cd94fab6c179392075d3fb361e269cdddfad41bb7ab385fa22a37e49a900",
+  "tahoma.ttf": "9af03d4ad44a3b413d92f7de48b94aa7cc8a1471a75d498406eae837f62ee1d1",
+  "tahomabd.ttf": "b16ed1a15e0cabea8d41d9f8899c253cd61ac466af5e3980d02bd0cf311c2267",
+  "verdana.ttf": "6a8481fe107ee547893c018b13dba291c2020bec3de5da6525d9ac09f6bc2105",
+  "verdanab.ttf": "f3245f5f38f61bd1ceefb0f1338a5b88a21e6220832c2f43a38bbc7e1547c36f"
+ },
+ "manifest_csv_sha256": "89be06516ff3f24a9a2edb6c8572f589d02f87f67d500a8f0b2a09a551debd78",
+ "bills_json_sha256": "557ac6cb8eb14f3bf6401d04014b2e16ad612d354d2c0742b1f570bcd88944d4"
+}

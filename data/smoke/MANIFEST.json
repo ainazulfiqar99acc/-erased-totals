@@ -1,0 +1,19 @@
+{
+ "renderer_version": "1.0.0",
+ "split": "smoke",
+ "seed_base": 9000,
+ "n_bills": 1,
+ "conditions": [
+  "clean"
+ ],
+ "n_images": 1,
+ "rendered_on": "2026-10-11",
+ "python": "3.13.2",
+ "pillow": "12.3.0",
+ "fonts": {
+  "consola.ttf": "cf00b507b3286870cc5064ebd0633c303f70b491a4af25eec2d32df413db0179",
+  "consolab.ttf": "7e8de70c92a891722bd3fbd623db005caab2bfe267e5dab5be46b95a44e0c7f1"
+ },
+ "manifest_csv_sha256": "8d5dca99655b35e63365d94b922437f85754375fd2de388624af29aa8da9d474",
+ "bills_json_sha256": "e1db75f160c405a4e6ddbed317a05511e23f8cd2ef3dfb60e3309d7da5c602c2"
+}

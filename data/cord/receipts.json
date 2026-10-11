@@ -1,0 +1,617 @@
+[
+ {
+  "bill_id": "r00",
+  "source_split": "test",
+  "source_index": 15,
+  "route": "R1",
+  "total": 63000,
+  "n_lines": 2,
+  "hidden_group": 43,
+  "hidden_amount": 38000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r01",
+  "source_split": "test",
+  "source_index": 19,
+  "route": "R2",
+  "total": 176000,
+  "n_lines": 2,
+  "hidden_group": 17,
+  "hidden_amount": 100000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r02",
+  "source_split": "test",
+  "source_index": 20,
+  "route": "R2",
+  "total": 377859,
+  "n_lines": 5,
+  "hidden_group": 5,
+  "hidden_amount": 69500,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r03",
+  "source_split": "test",
+  "source_index": 22,
+  "route": "R1",
+  "total": 40000,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 20000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r04",
+  "source_split": "test",
+  "source_index": 23,
+  "route": "R1",
+  "total": 63000,
+  "n_lines": 2,
+  "hidden_group": 3,
+  "hidden_amount": 54000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r05",
+  "source_split": "test",
+  "source_index": 40,
+  "route": "R1",
+  "total": 68000,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 14000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r06",
+  "source_split": "test",
+  "source_index": 49,
+  "route": "R1",
+  "total": 23000,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 11000,
+  "d_taped": [
+   "sub_total.subtotal_price",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.subtotal_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r07",
+  "source_split": "test",
+  "source_index": 52,
+  "route": "R1",
+  "total": 40000,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 20000,
+  "d_taped": [
+   "sub_total.subtotal_price",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r08",
+  "source_split": "test",
+  "source_index": 84,
+  "route": "R2",
+  "total": 39600,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 24000,
+  "d_taped": [
+   "total.emoneyprice",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.emoneyprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r09",
+  "source_split": "test",
+  "source_index": 95,
+  "route": "R2",
+  "total": 61799,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 13000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.cashprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r10",
+  "source_split": "test",
+  "source_index": 97,
+  "route": "R1",
+  "total": 55000,
+  "n_lines": 3,
+  "hidden_group": 23,
+  "hidden_amount": 6000,
+  "d_taped": [
+   "total.cashprice",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "total.cashprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r11",
+  "source_split": "test",
+  "source_index": 98,
+  "route": "R2",
+  "total": 250690,
+  "n_lines": 3,
+  "hidden_group": 5,
+  "hidden_amount": 59000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r12",
+  "source_split": "validation",
+  "source_index": 11,
+  "route": "R2",
+  "total": 89100,
+  "n_lines": 4,
+  "hidden_group": 4,
+  "hidden_amount": 35000,
+  "d_taped": [
+   "total.creditcardprice",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.changeprice",
+   "total.creditcardprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r13",
+  "source_split": "validation",
+  "source_index": 14,
+  "route": "R2",
+  "total": 39600,
+  "n_lines": 2,
+  "hidden_group": 3,
+  "hidden_amount": 24000,
+  "d_taped": [
+   "total.emoneyprice",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.emoneyprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r14",
+  "source_split": "validation",
+  "source_index": 20,
+  "route": "R2",
+  "total": 16500,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 5000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r15",
+  "source_split": "validation",
+  "source_index": 25,
+  "route": "R2",
+  "total": 207900,
+  "n_lines": 7,
+  "hidden_group": 14,
+  "hidden_amount": 7000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r16",
+  "source_split": "validation",
+  "source_index": 26,
+  "route": "R1",
+  "total": 35000,
+  "n_lines": 5,
+  "hidden_group": 4,
+  "hidden_amount": 8000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r17",
+  "source_split": "validation",
+  "source_index": 30,
+  "route": "R1",
+  "total": 21000,
+  "n_lines": 2,
+  "hidden_group": 3,
+  "hidden_amount": 9000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r18",
+  "source_split": "validation",
+  "source_index": 33,
+  "route": "R1",
+  "total": 57500,
+  "n_lines": 2,
+  "hidden_group": 85,
+  "hidden_amount": 37000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_etc",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r19",
+  "source_split": "validation",
+  "source_index": 35,
+  "route": "R2",
+  "total": 304326,
+  "n_lines": 4,
+  "hidden_group": 5,
+  "hidden_amount": 56000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r20",
+  "source_split": "validation",
+  "source_index": 39,
+  "route": "R2",
+  "total": 97900,
+  "n_lines": 5,
+  "hidden_group": 7,
+  "hidden_amount": 8000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r21",
+  "source_split": "validation",
+  "source_index": 42,
+  "route": "R1",
+  "total": 53000,
+  "n_lines": 3,
+  "hidden_group": 5,
+  "hidden_amount": 17000,
+  "d_taped": [
+   "sub_total.subtotal_price",
+   "total.creditcardprice",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "total.changeprice",
+   "total.creditcardprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r22",
+  "source_split": "validation",
+  "source_index": 45,
+  "route": "R2",
+  "total": 287760,
+  "n_lines": 4,
+  "hidden_group": 12,
+  "hidden_amount": 95000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r23",
+  "source_split": "validation",
+  "source_index": 57,
+  "route": "R2",
+  "total": 288585,
+  "n_lines": 3,
+  "hidden_group": 4,
+  "hidden_amount": 85500,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r24",
+  "source_split": "validation",
+  "source_index": 59,
+  "route": "R2",
+  "total": 664329,
+  "n_lines": 9,
+  "hidden_group": 41,
+  "hidden_amount": 50000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r25",
+  "source_split": "validation",
+  "source_index": 62,
+  "route": "R2",
+  "total": 62000,
+  "n_lines": 3,
+  "hidden_group": 18,
+  "hidden_amount": 9091,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r26",
+  "source_split": "validation",
+  "source_index": 63,
+  "route": "R2",
+  "total": 56800,
+  "n_lines": 2,
+  "hidden_group": 4,
+  "hidden_amount": 8000,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r27",
+  "source_split": "validation",
+  "source_index": 65,
+  "route": "R2",
+  "total": 54600,
+  "n_lines": 2,
+  "hidden_group": 30,
+  "hidden_amount": 43636,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.cashprice",
+   "total.changeprice",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r28",
+  "source_split": "validation",
+  "source_index": 69,
+  "route": "R2",
+  "total": 174983,
+  "n_lines": 3,
+  "hidden_group": 5,
+  "hidden_amount": 57500,
+  "d_taped": [
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "sub_total.service_price",
+   "sub_total.subtotal_price",
+   "sub_total.tax_price",
+   "total.total_price"
+  ]
+ },
+ {
+  "bill_id": "r29",
+  "source_split": "validation",
+  "source_index": 72,
+  "route": "R1",
+  "total": 36000,
+  "n_lines": 2,
+  "hidden_group": 3,
+  "hidden_amount": 19000,
+  "d_taped": [
+   "sub_total.subtotal_price",
+   "total.creditcardprice",
+   "total.total_price"
+  ],
+  "n_taped": [
+   "menu.price",
+   "menu.unitprice",
+   "sub_total.subtotal_price",
+   "total.changeprice",
+   "total.creditcardprice",
+   "total.total_price"
+  ]
+ }
+]

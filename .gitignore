@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+cache/
+kbench_runs/
+*.tmp
+data/cord_raw/
+logs_*.txt

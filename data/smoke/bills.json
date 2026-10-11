@@ -1,0 +1,66 @@
+[
+ {
+  "split": "smoke",
+  "bill_id": "b00",
+  "seed": 9000,
+  "doc_type": "retail_receipt",
+  "currency": "CAD",
+  "issuer": "Hillcrest General Store",
+  "address": "209 Station Road",
+  "phone": "Tel 555-0152",
+  "title": "SALES RECEIPT",
+  "number_label": "Receipt No",
+  "doc_no": "891883",
+  "date": "2025-03-20  13:08",
+  "customer": "R. Costa",
+  "extra_fields": [],
+  "lines": [
+   {
+    "desc": "Cheddar cheese",
+    "qty": 2,
+    "cents": 1494
+   },
+   {
+    "desc": "Ballpoint pens (10)",
+    "qty": 2,
+    "cents": 3035
+   },
+   {
+    "desc": "Eggs (12)",
+    "qty": 2,
+    "cents": 3589
+   },
+   {
+    "desc": "Dish soap",
+    "qty": 1,
+    "cents": 611
+   },
+   {
+    "desc": "USB cable",
+    "qty": 1,
+    "cents": 4541
+   }
+  ],
+  "total_label": "TOTAL",
+  "total_cents": 13270,
+  "cover_side": "lead",
+  "hidden_line": 4,
+  "font_regular": "consola.ttf",
+  "font_bold": "consolab.ttf",
+  "paper": [
+   245,
+   243,
+   237
+  ],
+  "photo": {
+   "angle": 0.099,
+   "blur": 0.4,
+   "margin": 31,
+   "bg": [
+    150,
+    132,
+    108
+   ]
+  }
+ }
+]

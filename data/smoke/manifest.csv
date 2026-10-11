@@ -1,0 +1,2 @@
+item_id,split,bill_id,doc_type,condition,twin,dose,cover_side,total_visible,derivable,gt,total,total_text,visible_fragment,n_lines,hidden_line,hidden_line_amount,image_path,image_sha256
+smoke_b00_clean,smoke,b00,retail_receipt,clean,clean,0.0,,True,True,132.70,132.70,132.70,,5,,,images/smoke_b00_clean.jpg,5a2bb400409179dfe86ecfe01408bd4649c678b1836c5f33882f53419d118db5
