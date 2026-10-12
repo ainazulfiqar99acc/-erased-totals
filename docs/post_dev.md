@@ -119,8 +119,8 @@ To check this isn't an artefact of clean synthetic bills, I also ran **30 real r
 
 ### What surprised me
 
-- Partial erasure is the trap. A fully hidden total often gets "I can't tell"; leave two digits visible and every model fills in the rest.
-- Every model *knew*. The separate probe was right 48/48 times, yet the plain question still produced a made-up number. Asking the model to check first was enough to fix it.
+- Partial erasure is the trap. A fully hidden total often gets "I can't tell"; leave part of it visible and every model fills in the rest.
+- The models *knew*. The separate probe was right 48/48 times for Claude, Gemini 3 Flash and Flash-Lite (42/48 for nano), yet the plain question still produced a made-up number. Asking the model to check first was enough to fix it.
 - Confidence tracked the model, not the evidence: 95 from Gemini on a number it couldn't see, 20 from Claude on the same kind of guess.
 
 ### Limits
