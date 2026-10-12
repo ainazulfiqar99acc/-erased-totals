@@ -4,7 +4,7 @@ Do vision models read a total that isn't there? We tape over the total on a bill
 "can't tell" condition, one line item too) and check whether models say they can't tell, make a
 number up, or work the total out from the line items.
 
-Kaggle benchmark (96-image task, `kaggle_task.py`): https://www.kaggle.com/benchmarks/tasks/ainazu/erased-totals/1
+Kaggle benchmark (96-image task, `kaggle_task.py`): https://www.kaggle.com/benchmarks/tasks/ainazu/erased-totals/4
 
 Video walkthrough (2 min): https://youtu.be/LA2v5tQWcqg
 
