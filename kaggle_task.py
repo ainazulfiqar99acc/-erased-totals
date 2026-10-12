@@ -113,8 +113,9 @@ def erased_totals(llm) -> float:
     results: dict[str, bool] = {}
     first_error = ""
     pending = df
-    for attempt in range(4):
-        runs = erased_total_item.evaluate(llm=[llm], evaluation_data=pending, n_jobs=4, timeout=600, on_failure="continue")
+    # Two calls at a time: the model proxy reserves each call's maximum cost up front.
+    for attempt in range(6):
+        runs = erased_total_item.evaluate(llm=[llm], evaluation_data=pending, n_jobs=2, timeout=600, on_failure="continue")
         done = runs.completed_runs.as_dataframe()
         if len(done) and "item_id" in done:
             for item_id, result in zip(done["item_id"], done["result"]):
@@ -128,7 +129,7 @@ def erased_totals(llm) -> float:
         print(f"attempt {attempt + 1}: answered {len(results)}/{len(df)}")
         if pending.empty:
             break
-        time.sleep(30 * (attempt + 1))
+        time.sleep(min(600, 60 * 2**attempt))  # 1, 2, 4, 8, 10 min: rides out a short quota or rate limit
     for cond in CONDITIONS:
         ok = [results[i] for i in df[df.condition == cond].item_id if i in results]
         print(f"{cond}: {sum(ok)}/{len(ok)} correct")
